@@ -1,0 +1,8 @@
+1. Ranking in terms of latency to first byte arriving in CPU register :
+  Read from L2 processor cache
+  USB flash storage
+  Read from local spinning RAID disk (7200 RPM)
+  Read from RAM on neighbour computer in same data center, one hop away
+  http API (first hit)
+  http s API (first hit)
+  Read cloud based Storage (S3, GCS)
