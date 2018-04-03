@@ -6,3 +6,17 @@
   http API (first hit)
   http s API (first hit)
   Read cloud based Storage (S3, GCS)
+
+
+
+2.
+a. The parallel upload to S3 buckets would be done using the CLI command for aws S3, i.e. the 'sync' command. The error correction can be 
+    done on the files parallely by reading the files using the mmap(memory map) module in python. It does also make sense to use 
+    distributed computing mechanism to make sure that the I/O for the files does not take much memory. 
+    To measure ideal concurrency there are plenty of platforms such as DataMan that can do the concurrency count and make it as ideal as 
+    possible. The  one major advantage of using the tool is that it sees the optimal upload part for all the files and then make sure what 
+    amount of part files upload can be done.
+    Reference : https://cyclecomputing.com/aws-s3-performance-tip-using-dataman-to-increase-concurrency-leads-to-500-mbps-upload-speed/
+    
+ b. 
+    
