@@ -1,3 +1,6 @@
+#### execute the code with the following command : gunzip -c hygdata_v3.csv.gz | python K_nearest_neighbor.py k
+
+
 #!/usr/bin/env python
 
 import numpy as np
