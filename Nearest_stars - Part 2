@@ -1,0 +1,4 @@
+The findstars service can be implemented using the system arguments in which case both the point defined in the program can be made to be
+a command line arguement that can be give by the user as a query and then accordingly the number of nearest stars as well.
+This way the entire dataset can be read into the memory and then the data can be read each time with a different point that can be queried
+as well as the number of nearest stars that are required (k).
