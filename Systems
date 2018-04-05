@@ -18,5 +18,6 @@ a. The parallel upload to S3 buckets would be done using the CLI command for aws
     amount of part files upload can be done.
     Reference : https://cyclecomputing.com/aws-s3-performance-tip-using-dataman-to-increase-concurrency-leads-to-500-mbps-upload-speed/
     
- b. 
+ b. Parallel error correction on files already existing on S3 buckets would be in terms of syncing them to local directories and then doing
+    the same mempry map module using python.
     
